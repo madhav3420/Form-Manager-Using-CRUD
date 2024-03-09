@@ -1,0 +1,111 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 2px solid #4CAF50;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: rgb(241, 175, 151);
+    text-align: center;
+}
+
+
+
+form {
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input[type="text"],
+input[type="date"],
+textarea,
+select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+input[type="radio"] {
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #bcd6be;
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 500px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #4CAF50;
+    margin-right: 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px double black;
+    padding: 8px;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+td {
+    text-align: left;
+}
+
+/* Style the operations column */
+td a {
+    display: inline-block;
+    margin-right: 5px;
+    color: #333;
+}
+
+td a:hover {
+    text-decoration: underline;
+    color: #4CAF50;
+}
